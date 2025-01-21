@@ -14,7 +14,7 @@ const profileScreen = () => {
   return (
     <View style={styles.View}>
       <View style={styles.container}>
-        <TextInput style={styles.Input} placeholder="Enter your number" />
+        <TextInput style={styles.Input} placeholder="Enter your phone number" />
       </View>
       <TouchableOpacity style={styles.toudh}>
         <Icon name="finger-print-outline" size={30} />
